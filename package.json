@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "inventory",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Omran Kaadan",
+  "license": "ISC",
+  "description": "Inventory management system",
+  "keywords": [
+    "inventory",
+    "management",
+    "system"
+  ],
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.7.1"
+  }
+}
